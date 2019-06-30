@@ -1,0 +1,130 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0px 0px 0px 0px;
+}
+
+#backround_image {
+    width: 1366px;
+    height: 635px;
+    position: fixed;
+}
+
+#header {
+    position: fixed;
+    width: 1366px;
+    height: 50px;
+    background: black;
+    opacity: 0.85;
+    top: 0px;
+}
+
+#logo {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+}
+
+#mountains_mk {
+    position: fixed;
+    top: 15px;
+    left: 85px;
+    font-size: 18px;
+    text-decoration: solid;
+    color: orange;
+}
+
+#form1 {
+    position: fixed;
+    left: 730px;
+    top: 10px;
+    height: 25px;
+    width: 220px;
+}
+
+#form2 {
+    position: fixed;
+    left: 955px;
+    top: 10px;
+    height: 25px;
+    width: 200px;
+}
+
+#submit1 {
+    position: fixed;
+    top: 13px;
+    left: 1175px;
+    color: black;
+    height: 25px;
+    width: 60px;
+}
+
+#forget {
+    position: fixed;
+    top: 18px;
+    left: 1245px;
+    color: white;
+    font-size: 13px;
+    text-decoration: solid;
+}
+
+#weather_img {
+    width: 0px;
+    position: fixed;
+    border-radius: 50%;
+    top: 50px;
+    left: 1306px;
+}
+
+#weather_text {
+    position: fixed;
+    top: 70px;
+    left: 1138px;
+    font-size: 20px;
+    color: black;
+}
+
+#table_mountains {
+    position: fixed;
+    width: 500px;
+    height: 250px;
+    border: 1px solid black;
+    background: beige;
+    opacity: 0.7;
+    top: 150px;
+    left: 350px;
+}
+
+
+
+
+
+#footer {
+    position: fixed;
+    width: 1366px;
+    height: 35px;
+    background: black;
+    opacity: 0.95;
+    top: 600px;
+}
+
+/*#footer_p1 {
+    position: fixed;
+    font-size: 13px;
+    text-align: center;
+    top: 613px;
+}*/
+
+.list {
+    position: relative;
+    padding: 5px, 5px, 5px, 5px;
+    margin: 5px, 5px, 5px, 5px;
+    display: inline;
+    font-size: 13px;
+    right: -42%;
+    top: 6px;
+    margin: 17px;
+    visibility: visible;
+    padding: 0px, 1px, 1px, 0px;
+}
