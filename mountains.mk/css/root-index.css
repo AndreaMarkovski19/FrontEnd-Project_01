@@ -143,3 +143,10 @@ body, html {
     visibility: visible;
     padding: 0px, 1px, 1px, 0px;
 }
+
+.search {
+    position: fixed;
+    left: 510px;
+    bottom: 5px;
+    width: auto;
+}
