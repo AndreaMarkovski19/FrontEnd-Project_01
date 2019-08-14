@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>mountains.mk</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="..\..\css\lakes\lakes_tables.css">
+
+</head>
+
+<body>
+
+    <image id="backround_image" src="../../images/backround_images/02.jpeg"></image>
+
+    <header id="header">
+
+        <image id="logo" src="../../images\logo\logo.png"></image>
+
+        <a id="mountains_mk" href="../../root-index.html">MOUNTAINS.MK</a>
+
+        <form action="www.mountains.mk/login/" method="post">
+            <input type="email" id="form1" style="height:25px; width:200px;" name="username" placeholder="Username" required />
+
+            <input type="password" id="form2" style="height:25px; width:200px;" name="password" placeholder="Password" required />
+
+            <input type="submit" id="submit1" value="Sign in" />
+        </form>
+
+        <a id="forget" href="../../root-index.html">forget password?</a>
+
+    </header>
+
+    <main>
+
+        <div id="weather_text">Mountain weather</div>
+        <a id="weather_img" href="https://www.mountain-forecast.com/">
+            <img src="../../images\weather\weather_01.png" alt="www.mountain-forecast.com" style="width:60px;height:60px;border-radius:50%;">
+        </a>
+
+        <table id="table_mountains" border="1">
+            <thead>
+                <tr>
+                    <th>РБ</th>
+                    <td>Име</td>
+                    <td>Висина/Длабочина</td>
+                </tr>
+            </thead>
+            <tr>
+                <th>1</th>
+                <td><a href="Lake_01/index.html"> Охридско езеро </a> </td>
+                <td>289 метри</td>
+            </tr>
+            <tr>
+                <th>2</th>
+                <td><a href="Lake_02/index.html"> Преспанско езеро </a> </td>
+                <td>76 метри</td>
+            </tr>
+            <tr>
+                <th>3</th>
+                <td><a href="Lake_03/index.html"> Дојранско езеро </a> </td>
+                <td>10 метри</td>
+            </tr>
+        </table>
+
+    </main>
+
+    <footer id="footer">
+
+        <!-- <div id="footer_p1">Copyright © 2019 www.mountains.mk</div> -->
+
+        <div class="list" id="home">Home</div>
+        <div class="list" id="about">About</div>
+        <div class="list" id="contacts">Contacts</div>
+
+    </footer>
+
+    <script type="text/javascript" src="js/script_01.js"></script>
+
+</body>
+
+</html>
