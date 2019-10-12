@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>mountains.mk</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="../../css/mountains/mountains_tables.css">
+</head>
+
+<body>
+    <image id="backround_image" src="../../images/backround_images/02.jpeg"></image>
+
+    <header id="header">
+        <image id="logo" src="../../images/logo/logo.png"></image>
+        <a id="mountains_mk" href="../../root-index.html">MOUNTAINS.MK</a>
+    </header>
+
+    <main>
+        <div id="weather_text">Mountain weather</div>
+        <a id="weather_img" href="https://www.mountain-forecast.com/">
+            <img src="../../images/weather/weather_01.png" alt="www.mountain-forecast.com" style="width:60px;height:60px;border-radius:50%;">
+        </a>
+
+        <table class="sortable" id="table_mountains" border="1">
+            <thead>
+                <tr>
+                    <th style="cursor: pointer">Име</th>
+                    <th onclick="sortTable(2)" style="cursor: pointer">Висина/Длабочина/Должина</th>
+                </tr>
+            </thead>
+            <tr>
+                <td><a href="Mountain_01/index.html">Голем Кораб</a></td>
+                <td>2.744 м.н.в.</td>
+            </tr>
+            <tr>
+                <td><a href="Mountain_02/index.html">Титов Врв</a></td>
+                <td>2.748 м.н.в.</td>
+            </tr>
+            <tr>
+                <td><a href="Mountain_03/index.html">Пелистер</a></td>
+                <td>2.601 м.н.в.</td>
+            </tr>
+            <tr>
+                <td><a href="Mountain_04/index.html">Солунска Глава</a></td>
+                <td>2.540 м.н.в.</td>
+            </tr>
+        </table>
+    </main>
+
+    <footer id="footer"></footer>
+
+    <script type="text/javascript" src="../../js/mountains_tables/sorttable.js"></script>
+    <script type="text/javascript" src="../../js/mountains_tables/script_01.js"></script>
+
+</body>
+</html>
